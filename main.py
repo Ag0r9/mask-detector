@@ -11,4 +11,3 @@ if choice == 'Static':
 elif choice == 'Dynamic':
     detection_from_camera()
 
-webrtc_streamer(key="camera", media_stream_constraints={"video": True, "audio": False})
