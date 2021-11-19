@@ -1,4 +1,5 @@
 .idea
-venv
-pictures
 .ipynb_checkpoints
+data
+pictures
+venv
