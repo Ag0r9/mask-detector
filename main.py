@@ -1,4 +1,14 @@
+from static import photo_uploader
+from dynamic import detection_from_camera
+
 import streamlit as st
-from streamlit_webrtc import webrtc_streamer
+
+
+choice = st.sidebar.radio('Select detection mode', ['Static', 'Dynamic'])
+
+if choice == 'Static':
+    photo_uploader()
+elif choice == 'Dynamic':
+    detection_from_camera()
 
 webrtc_streamer(key="camera", media_stream_constraints={"video": True, "audio": False})
