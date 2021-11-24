@@ -22,8 +22,8 @@ def detect(uploaded_file):
     img_size = 124
     gamma = 2.0
     assign = {'0': 'Mask', '1': 'No Mask'}
-
     image = np.array(uploaded_file)
+    image = image[:, :, ::-1].copy()
     image = adjust_gamma(image, gamma=gamma)
     (h, w) = image.shape[:2]
     blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 1.0, (300, 300), (104.0, 177.0, 123.0))
@@ -50,4 +50,5 @@ def detect(uploaded_file):
 
         except:
             pass
+    image = image[:, :, ::-1].copy()
     return image
