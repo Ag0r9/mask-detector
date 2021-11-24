@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-import tensorflow as tf
+from tensorflow import keras
 
 
 def import_face_detection_model():
@@ -13,7 +13,7 @@ def import_face_detection_model():
 
 
 def import_custom_NN_model():
-    return tf.keras.models.load_model('data/Mask_Detection_Model.h5')
+    return keras.models.load_model('data/Mask_Detection_Model.h5')
 
 
 def detect(uploaded_file):
