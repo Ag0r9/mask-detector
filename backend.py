@@ -21,7 +21,7 @@ def detect(uploaded_file):
     model = import_custom_NN_model()
     img_size = 124
     gamma = 2.0
-    assign = {'0': 'Mask', '1': 'No Mask'}
+    assign = {0: 'Mask', 1: 'No Mask'}
     image = np.array(uploaded_file)
     image = image[:, :, ::-1].copy()
     image = adjust_gamma(image, gamma=gamma)
@@ -35,18 +35,21 @@ def detect(uploaded_file):
             (startX, startY, endX, endY) = box.astype("int")
             frame = image[startY:endY, startX:endX]
             confidence = detections[0, 0, i, 2]
-            if confidence > 0.2:
+            if confidence > 0.5:
+                confidence = round(confidence, 2)
                 im = cv2.resize(frame, (img_size, img_size))
                 im = np.array(im) / 255.0
                 im = im.reshape(1, 124, 124, 3)
-                result = model.predict(im)
-                if result > 0.5:
+                result = round(model.predict(im)[0][0], 2)
+                if result > 0.2:
                     label_Y = 1
+                    rectangle_color = (0, 0, 255)
                 else:
                     label_Y = 0
-                cv2.rectangle(image, (startX, startY), (endX, endY), (0, 0, 255), 2)
-                cv2.putText(image, assign[str(label_Y)], (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.5,
-                            (36, 255, 12), 2)
+                    rectangle_color = (36, 255, 12)
+                cv2.rectangle(image, (startX, startY), (endX, endY), rectangle_color, 2)
+                cv2.putText(image, f'{assign[label_Y]} {str(confidence)}/{str(result)}',
+                            (startX, startY - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, rectangle_color, 4)
 
         except:
             pass
