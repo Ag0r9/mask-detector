@@ -41,7 +41,7 @@ def detect(uploaded_file):
                 im = np.array(im) / 255.0
                 im = im.reshape(1, 124, 124, 3)
                 result = round(model.predict(im)[0][0], 2)
-                if result > 0.2:
+                if result > 0.5:
                     label_Y = 1
                     rectangle_color = (0, 0, 255)
                 else:
