@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  3 DEC 2021 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  3 DEC 2021 18:09
 entering extended mode
 **./document.tex
 (document.tex
@@ -542,28 +542,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
- (document.bbl) [1
+ (document.bbl [1
 
-{C:/Users/Adam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (document.au
-x)
+{C:/Users/Adam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) [2] (docume
+nt.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 2B47C4524D682931B01436A856809B85;972.
+(rerunfilecheck)             Checksum: 4B2B7A61070CB43D79127C62EE3BA81D;1150.
  ) 
 Here is how much of TeX's memory you used:
- 11489 strings out of 479582
- 173738 string characters out of 2861958
- 478791 words of memory out of 3000000
- 28498 multiletter control sequences out of 15000+200000
+ 11492 strings out of 479582
+ 173764 string characters out of 2861958
+ 479792 words of memory out of 3000000
+ 28499 multiletter control sequences out of 15000+200000
  428038 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,7n,74p,257b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,7n,74p,340b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
 fb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb>
-Output written on document.pdf (1 page, 34497 bytes).
+Output written on document.pdf (2 pages, 38526 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

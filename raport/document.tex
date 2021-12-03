@@ -20,7 +20,7 @@
 	colorlinks   = true, %Colours links instead of ugly boxes
 	urlcolor     = blue, %Colour for external hyperlinks
 	linkcolor    = blue, %Colour of internal links
-	citecolor   = red %Colour of citations
+	citecolor    = red %Colour of citations
 }
 \bibliographystyle{abbrv}
 
@@ -33,8 +33,11 @@
 	\section{Wstęp}
 	\section{Prezentacja aplikacji}
 	\section{Dane}
-	\section{Działanie algorytmu}
-		\subsection{Dostosowanie Gammy}
+	\section{Użyte modele}
+	\section{Działanie programu}
+		\subsection{Przygotowanie zdjęcia do modelu}
+		Wczytane zdjęcie jest zmieniane na tablicę jako RBG. Następnie jest układ jest zmieniany na BGR. Wynika to z faktu, że podczas dane do trenowania były wczytywane za pomocą biblioteki \href{https://opencv.org/}{OpenCV}, a w aplikacji przez \href{https://pillow.readthedocs.io/en/stable/}{Pillow}.
+		
 		\subsection{Detekcja twarzy}
 		Ile kurwa za szlugi?\cite{marx_kapital_1962}
 		\subsection{Klasyfikacja twarzy}
