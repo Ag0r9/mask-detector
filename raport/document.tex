@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{lmodern} zazwyczaj używam tej czcionki
+\usepackage{mathptmx} %times new roman
+\usepackage{amsmath}	%pakiet z symbolami matematycznymi
+\usepackage{graphicx}	%do wstawiania rysunków
+\usepackage{float}	%do umiejscowienia rysunków w dobrych miejscach
+\usepackage{wrapfig} %do wstawiania obrazków obok tekstu
+%\usepackage{indentfirst}	%do zaczynania pierwszego akapitu wcięciem
+\usepackage{multirow}	%do tabel
+\usepackage{hyperref}	%refy działają jak hyperlinki
+\usepackage{caption}	%przy refie idze na góre obrazka
+\usepackage[table,xcdraw]{xcolor}
+\selectlanguage{polish}	%język
+\graphicspath{ {./obrazki/} }	%folder gdzie znajdują się rysunki
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = blue, %Colour for external hyperlinks
+	linkcolor    = blue, %Colour of internal links
+	citecolor   = red %Colour of citations
+}
+\bibliographystyle{abbrv}
+
+\title{Komunikacja człowiek komputer - sprawozdania z aplikacji Mask Detector}
+\author{Gorgoń Adam - 145278\\Grochowska Paulina - 145284}
+
+\begin{document}
+	\maketitle
+	
+	\section{Wstęp}
+	\section{Prezentacja aplikacji}
+	\section{Dane}
+	\section{Działanie algorytmu}
+		\subsection{Dostosowanie Gammy}
+		\subsection{Detekcja twarzy}
+		Ile kurwa za szlugi?\cite{marx_kapital_1962}
+		\subsection{Klasyfikacja twarzy}
+	\section{Podsumowanie}
+	\bibliography{md_bibl.bib}
+\end{document}
