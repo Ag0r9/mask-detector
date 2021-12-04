@@ -1,8 +1,19 @@
 \begin{thebibliography}{1}
 
-\bibitem{marx_kapital_1962}
-K.~Marx.
-\newblock Das kapital. kritik der politischen Ökonomie. erster band: Der
-  produktionsprozeß des kapitals.
+\bibitem{tensorflow2015-whitepaper}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~Goodfellow, A.~Harp, G.~Irving,
+  M.~Isard, Y.~Jia, R.~Jozefowicz, L.~Kaiser, M.~Kudlur, J.~Levenberg,
+  D.~Mané, R.~Monga, S.~Moore, D.~Murray, C.~Olah, M.~Schuster, J.~Shlens,
+  B.~Steiner, I.~Sutskever, K.~Talwar, P.~Tucker, V.~Vanhoucke, V.~Vasudevan,
+  F.~Viégas, O.~Vinyals, P.~Warden, M.~Wattenberg, M.~Wicke, Y.~Yu, and
+  X.~Zheng.
+\newblock {{TensorFlow}}: {{Large-scale}} machine learning on heterogeneous
+  systems.
+
+\bibitem{jia_caffe_2014}
+Y.~Jia, E.~Shelhamer, J.~Donahue, S.~Karayev, J.~Long, R.~Girshick,
+  S.~Guadarrama, and T.~Darrell.
+\newblock Caffe: {{Convolutional Architecture}} for {{Fast Feature Embedding}}.
 
 \end{thebibliography}

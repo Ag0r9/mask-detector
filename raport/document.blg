@@ -5,47 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: abbrv.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Database file #1: md_bibl.bib
-Warning--entry type for "marx_kapital_1962" isn't style-file defined
+Warning--entry type for "jia_caffe_2014" isn't style-file defined
 --line 2 of file md_bibl.bib
-You've used 1 entry,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            503 strings with 3864 characters,
-and the built_in function-call counts, 213 in all, are:
-= -- 16
-> -- 7
+            503 strings with 4809 characters,
+and the built_in function-call counts, 1842 in all, are:
+= -- 126
+> -- 246
 < -- 0
-+ -- 3
-- -- 2
-* -- 7
-:= -- 40
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 4
++ -- 98
+- -- 96
+* -- 198
+:= -- 347
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 7
-empty$ -- 23
-format.name$ -- 2
-if$ -- 43
+cite$ -- 2
+duplicate$ -- 14
+empty$ -- 45
+format.name$ -- 96
+if$ -- 319
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 7
-num.names$ -- 2
-pop$ -- 8
+newline$ -- 11
+num.names$ -- 4
+pop$ -- 62
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 52
 quote$ -- 0
-skip$ -- 10
+skip$ -- 20
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 10
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 8
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 9
+while$ -- 4
+width$ -- 3
+write$ -- 16
 (There was 1 warning)
