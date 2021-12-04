@@ -39,7 +39,7 @@ def detect(uploaded_file):
                 confidence = round(confidence, 2)
                 im = cv2.resize(frame, (img_size, img_size))
                 im = np.array(im) / 255.0
-                im = im.reshape(1, 124, 124, 3)
+                im = im.reshape(1, img_size, img_size, 3)
                 result = round(model.predict(im)[0][0], 2)
                 if result > 0.5:
                     label_Y = 1
