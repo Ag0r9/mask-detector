@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  4 DEC 2021 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  6 DEC 2021 21:21
 entering extended mode
 **./document.tex
 (document.tex
@@ -123,13 +123,21 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count187
+\float@exts=\toks18
+\float@box=\box47
+\@float@everytoks=\toks19
+\@floatcapt=\box48
+)
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.sty
 "
 \wrapoverhang=\dimen146
 \WF@size=\dimen147
-\c@WF@wrappedlines=\count187
-\WF@box=\box47
-\WF@everypar=\toks18
+\c@WF@wrappedlines=\count188
+\WF@box=\box49
+\WF@everypar=\toks20
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
@@ -148,37 +156,38 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen154
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count188
-\c@continuedfloat=\count189
+\c@caption@flags=\count189
+\c@continuedfloat=\count190
+Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption.
 sty"
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count190
-\c@subtable=\count191
+\c@subfigure=\count191
+\c@subtable=\count192
 )
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.s
 ty"
-\lst@mode=\count192
-\lst@gtempboxa=\box48
-\lst@token=\toks19
-\lst@length=\count193
+\lst@mode=\count193
+\lst@gtempboxa=\box50
+\lst@token=\toks21
+\lst@length=\count194
 \lst@currlwidth=\dimen155
-\lst@column=\count194
-\lst@pos=\count195
+\lst@column=\count195
+\lst@pos=\count196
 \lst@lostspace=\dimen156
 \lst@width=\dimen157
-\lst@newlines=\count196
-\lst@lineno=\count197
+\lst@newlines=\count197
+\lst@lineno=\count198
 \lst@maxwidth=\dimen158
 
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.st
 y"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count198
-\lst@skipnumbers=\count199
-\lst@framebox=\box49
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box51
 )
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.c
 fg"
@@ -239,8 +248,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen159
-\Hy@linkcounter=\count266
-\Hy@pagecounter=\count267
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
 
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def
 "
@@ -261,7 +270,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 .sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count268
+\Hy@SavedSpaceFactor=\count269
 
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
 File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
@@ -275,7 +284,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count269
+\c@Hy@tempcnt=\count270
  ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -292,7 +301,7 @@ calc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count270
+\Fld@menulength=\count271
 \Field@Width=\dimen161
 \Fld@charsize=\dimen162
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -311,9 +320,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count271
-\c@Item=\count272
-\c@Hfootnote=\count273
+\Hy@abspage=\count272
+\c@Item=\count273
+\c@Hfootnote=\count274
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -327,8 +336,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count274
-\c@bookmark@seq@number=\count275
+\Fld@listcount=\count275
+\c@bookmark@seq@number=\count276
 
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\reru
 nfilecheck.sty"
@@ -370,8 +379,8 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
 -pdftex.def"
 File: l3backend-pdftex.def 2021-02-06 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box50
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box52
 ) (document.aux)
 \openout1 = `document.aux'.
 
@@ -397,17 +406,17 @@ LaTeX Font Info:    ... okay on input line 68.
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count278
 \scratchdimen=\dimen163
-\scratchbox=\box51
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count280
+\scratchbox=\box53
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count281
 \MPscratchDim=\dimen164
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks21
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks23
 )
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
 df-base.sty"
@@ -419,7 +428,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count283
+\c@lstlisting=\count284
 Package hyperref Info: Link coloring ON on input line 68.
 
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
@@ -434,7 +443,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ttitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count285
 )
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
@@ -488,70 +497,98 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {C:/Users/Adam/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (73.32425pt too wide) in paragraph at lines 88--89
-\T1/lmss/m/n/12 W±ród nich: 'face_with_mask', 'mask_colorful', 'face_no_mask', 
-'face_with_mask_incorrect',
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+90.
+
+("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmss.fd"
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+[2 <./obrazki//apka.png>]
+Overfull \hbox (1.54855pt too wide) in paragraph at lines 99--100
+\T1/lmss/m/n/12 Jednak ko-rzy-sta-li-±my je-dy-nie z dwóch z nich: `face_with_m
+ask', 'face_no_mask'.
  []
 
-<./obrazki//dane.png, id=50, 436.63126pt x 248.93pt>
+<./obrazki//dane.png, id=60, 436.63126pt x 248.93pt>
 File: ./obrazki//dane.png Graphic file (type png)
 <use ./obrazki//dane.png>
-Package pdftex.def Info: ./obrazki//dane.png  used on input line 94.
+Package pdftex.def Info: ./obrazki//dane.png  used on input line 105.
 (pdftex.def)             Requested size: 390.0pt x 222.34465pt.
-[2 <./obrazki//apka.png>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-8.
-
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+09.
 ("C:\Users\Adam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 [3 <./obrazki//dane.png>]
-<./obrazki//rgb_to_bgr.jpeg, id=84, 722.7pt x 1284.8pt>
+<./obrazki//rgb_to_bgr.jpeg, id=81, 722.7pt x 1284.8pt>
 File: ./obrazki//rgb_to_bgr.jpeg Graphic file (type jpg)
 <use ./obrazki//rgb_to_bgr.jpeg>
-Package pdftex.def Info: ./obrazki//rgb_to_bgr.jpeg  used on input line 119.
+Package pdftex.def Info: ./obrazki//rgb_to_bgr.jpeg  used on input line 130.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//nieprzerobione.jpeg, id=85, 722.7pt x 1284.8pt>
+<./obrazki//nieprzerobione.jpeg, id=82, 722.7pt x 1284.8pt>
 File: ./obrazki//nieprzerobione.jpeg Graphic file (type jpg)
 <use ./obrazki//nieprzerobione.jpeg>
-Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 126
+Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 137
 .
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
 File: ./obrazki//nieprzerobione.jpeg Graphic file (type jpg)
 <use ./obrazki//nieprzerobione.jpeg>
-Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 136
+Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 147
 .
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//po_gamma.jpeg, id=86, 722.7pt x 1284.8pt>
+<./obrazki//po_gamma.jpeg, id=83, 722.7pt x 1284.8pt>
 File: ./obrazki//po_gamma.jpeg Graphic file (type jpg)
 <use ./obrazki//po_gamma.jpeg>
-Package pdftex.def Info: ./obrazki//po_gamma.jpeg  used on input line 143.
+Package pdftex.def Info: ./obrazki//po_gamma.jpeg  used on input line 154.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//twarz.jpeg, id=87, 722.7pt x 1284.8pt>
+<./obrazki//twarz.jpeg, id=84, 722.7pt x 1284.8pt>
 File: ./obrazki//twarz.jpeg Graphic file (type jpg)
 <use ./obrazki//twarz.jpeg>
-Package pdftex.def Info: ./obrazki//twarz.jpeg  used on input line 157.
+Package pdftex.def Info: ./obrazki//twarz.jpeg  used on input line 168.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//maska.jpeg, id=88, 722.7pt x 1284.8pt>
+<./obrazki//maska.jpeg, id=85, 722.7pt x 1284.8pt>
 File: ./obrazki//maska.jpeg Graphic file (type jpg)
 <use ./obrazki//maska.jpeg>
-Package pdftex.def Info: ./obrazki//maska.jpeg  used on input line 164.
+Package pdftex.def Info: ./obrazki//maska.jpeg  used on input line 175.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
- [4 <./obrazki//rgb_to_bgr.jpeg> <./obrazki//nieprzerobione.jpeg>] [5 <./obrazk
-i//po_gamma.jpeg> <./obrazki//twarz.jpeg> <./obrazki//maska.jpeg>] [6] (documen
-t.bbl) [7] (document.aux)
+ [4] [5 <./obrazki//rgb_to_bgr.jpeg> <./obrazki//nieprzerobione.jpeg> <./obrazk
+i//po_gamma.jpeg>]
+<./obrazki//accuracy.png, id=105, 393.47pt x 279.0425pt>
+File: ./obrazki//accuracy.png Graphic file (type png)
+<use ./obrazki//accuracy.png>
+Package pdftex.def Info: ./obrazki//accuracy.png  used on input line 190.
+(pdftex.def)             Requested size: 312.00119pt x 221.26291pt.
+<./obrazki//loss.png, id=106, 393.47pt x 279.0425pt>
+File: ./obrazki//loss.png Graphic file (type png)
+<use ./obrazki//loss.png>
+Package pdftex.def Info: ./obrazki//loss.png  used on input line 196.
+(pdftex.def)             Requested size: 312.00119pt x 221.26291pt.
+ [6 <./obrazki//twarz.jpeg> <./obrazki//maska.jpeg>]
+<./obrazki//accidents.png, id=116, 389.455pt x 262.9825pt>
+File: ./obrazki//accidents.png Graphic file (type png)
+<use ./obrazki//accidents.png>
+Package pdftex.def Info: ./obrazki//accidents.png  used on input line 202.
+(pdftex.def)             Requested size: 312.00119pt x 210.68723pt.
+<./obrazki//conf.png, id=117, 567.11874pt x 579.16376pt>
+File: ./obrazki//conf.png Graphic file (type png)
+<use ./obrazki//conf.png>
+Package pdftex.def Info: ./obrazki//conf.png  used on input line 208.
+(pdftex.def)             Requested size: 234.00238pt x 238.96985pt.
+ [7 <./obrazki//accuracy.png> <./obrazki//loss.png>] [8 <./obrazki//accidents.p
+ng> <./obrazki//conf.png>] (document.bbl) [9] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 4B2B7A61070CB43D79127C62EE3BA81D;1150.
  ) 
 Here is how much of TeX's memory you used:
- 12466 strings out of 479582
- 188534 string characters out of 2861958
- 535792 words of memory out of 3000000
- 29453 multiletter control sequences out of 15000+200000
- 448872 words of font info for 57 fonts, out of 3000000 for 9000
+ 12574 strings out of 479582
+ 190520 string characters out of 2861958
+ 533664 words of memory out of 3000000
+ 29543 multiletter control sequences out of 15000+200000
+ 449252 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,74p,678b,1182s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
 }{C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.
 enc}{C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.e
 nc}<C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi1
@@ -563,9 +600,9 @@ ic/lm/lmss17.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmss8.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/lm/lmtt12.pfb>
-Output written on document.pdf (7 pages, 2244806 bytes).
+Output written on document.pdf (9 pages, 2299240 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

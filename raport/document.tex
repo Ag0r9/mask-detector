@@ -8,7 +8,7 @@
 %\usepackage{helvet}
 %\usepackage{amsmath}	%pakiet z symbolami matematycznymi
 \usepackage{graphicx}	%do wstawiania rysunków
-%\usepackage{float}	%do umiejscowienia rysunków w dobrych miejscach
+\usepackage{float}	%do umiejscowienia rysunków w dobrych miejscach
 \usepackage{wrapfig} %do wstawiania obrazków obok tekstu
 \usepackage{caption}
 \usepackage{subcaption}
@@ -63,7 +63,7 @@
 	{]}{{{\color{delim}{]}}}}{1},
 }
 
-\title{Komunikacja człowiek komputer - sprawozdania z aplikacji Mask Detector}
+\title{Komunikacja człowiek komputer - sprawozdanie z aplikacji Mask Detector}
 \author{Gorgoń Adam - 145278\\Grochowska Paulina - 145284}
 \begin{document}
 	\maketitle
@@ -85,7 +85,18 @@
 	\section{Dane}
 	Zbiór danych użytych do trenowania i walidacji modelu pochodzi ze strony \href{https://www.kaggle.com/wobotintelligence/face-mask-detection-dataset}{Kaggle}. Składa się na niego dokładnie 5749 zdjęć, a na każdym z nich znajduje się co najmniej jedna osoba.
 	
-	W pliku submission.csv znajduje się tabela z nazwą zdjęcia, koordynatami jednej lub wielu twarzy osoby oraz co najmniej jedną etykietą opisującą osobę/y. Wśród nich: 'face\_with\_mask', 'mask\_colorful', 'face\_no\_mask', 'face\_with\_mask\_incorrect', 'mask\_surgical', 'face\_other\_covering', 'scarf\_bandana', 'eyeglasses'. Jednak korzystaliśmy jedynie z dwóch z nich: ‘face\_with\_mask', 'face\_no\_mask'. W konsekwencji otrzymaliśmy 4180 zdjęć osób w maskach oraz 1569 zdjęć osób bez masek.
+	W pliku submission.csv znajduje się tabela z nazwą zdjęcia, koordynatami jednej lub wielu twarzy osoby oraz co najmniej jedną etykietą opisującą osobę/y. Wśród nich:
+	\begin{itemize}
+		\item 'face\_with\_mask',
+		\item 'mask\_colorful',
+		\item 'face\_no\_mask',
+		\item 'face\_with\_mask\_incorrect',
+		\item 'mask\_surgical',
+		\item 'face\_other\_covering',
+		\item 'scarf\_bandana',
+		\item 'eyeglasses'.
+	\end{itemize}
+	Jednak korzystaliśmy jedynie z dwóch z nich: ‘face\_with\_mask', 'face\_no\_mask'. W konsekwencji otrzymaliśmy 4180 zdjęć osób w maskach oraz 1569 zdjęć osób bez masek.
 	
 	Sprawą niezbalansowanych danych zajęliśmy się przy trenowaniu modelu.
 	Dodatkowo do każdego elementu zbioru znajdował się plik .json. Pomógł on w sprawniejszym i dokładniejszym przetworzeniu każdego pliku.
@@ -168,7 +179,36 @@
 			\caption{Działanie modelu}
 		\end{figure}
 	\section{Podsumowanie}
-	No daj to 5.
+	Po wytrenowaniu modelu i sprawdzeniu działania aplikacji przeanalizowaliśmy otrzymane wyniki i doszliśmy do następujących wniosków.
+	Zdecydowana większość uzyskanych wartości była zgodna z oczekiwanymi (macierz pomyłek, wykres \ref{fig:conf}). Wystąpienie niepoprawnych dopasowań może wynikać z nieidealnego dobrania parametrów. Niemniej jednak przy zastosowaniu sieci neuronowych obecność błędów jest normalna, a uzyskana pewność jest zadowalająca na skalę, ograniczenia pamięciowe i czasowe aplikacji.
+	
+	Ponadto patrząc na wykres \ref{fig:accidents} widać, że dla wartości parametru granicznego równego 0.5 otrzymujemy minimum funkcji. Oznacza to, że parametr o tej wartości zapewnia nam najmniejszą ilość pomyłek, a przy tym najlepsze rezultaty.
+	
+	Analizując wykresy \ref{fig:accuracy} i \ref{fig:loss} można dojść do wniosku, że krzywa odpowiadająca za dane testowe walidacyjne szybko ‘zbliżyła się’ do do drugiej krzywej. Wskazuje to na szybką poprawę efektywności sieci neuronowej, a także na ogólną dobrą jakość programu.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{accuracy.png}
+		\caption{Wykres przedstawiający dokładność na danych walidacyjnych i treningowych}
+		\label{fig:accuracy}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{loss.png}
+		\caption{Wykres przedstawiający straty na danych walidacyjnych i treningowych}
+		\label{fig:loss}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{accidents.png}
+		\caption{Wykres przedstawiający ilość pomyłek, przy zmianie parametru granicznego}
+		\label{fig:accidents}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{conf.png}
+		\caption{Macierz pomyłek dla parametru granicznego o wartości 0.5}
+		\label{fig:conf}
+	\end{figure}
 	\newpage
 	\bibliography{md_bibl.bib}
 \end{document}
