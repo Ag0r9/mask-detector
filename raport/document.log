@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  6 DEC 2021 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.19)  9 DEC 2021 13:50
 entering extended mode
 **./document.tex
 (document.tex
@@ -482,7 +482,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 70.
-<./obrazki//apka.png, id=39, 1445.4pt x 776.14969pt>
+<./obrazki//apka.png, id=40, 1445.4pt x 776.14969pt>
 File: ./obrazki//apka.png Graphic file (type png)
 <use ./obrazki//apka.png>
 Package pdftex.def Info: ./obrazki//apka.png  used on input line 76.
@@ -509,7 +509,7 @@ Overfull \hbox (1.54855pt too wide) in paragraph at lines 99--100
 ask', 'face_no_mask'.
  []
 
-<./obrazki//dane.png, id=60, 436.63126pt x 248.93pt>
+<./obrazki//dane.png, id=61, 436.63126pt x 248.93pt>
 File: ./obrazki//dane.png Graphic file (type png)
 <use ./obrazki//dane.png>
 Package pdftex.def Info: ./obrazki//dane.png  used on input line 105.
@@ -520,12 +520,12 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 [3 <./obrazki//dane.png>]
-<./obrazki//rgb_to_bgr.jpeg, id=81, 722.7pt x 1284.8pt>
+<./obrazki//rgb_to_bgr.jpeg, id=80, 722.7pt x 1284.8pt>
 File: ./obrazki//rgb_to_bgr.jpeg Graphic file (type jpg)
 <use ./obrazki//rgb_to_bgr.jpeg>
 Package pdftex.def Info: ./obrazki//rgb_to_bgr.jpeg  used on input line 130.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//nieprzerobione.jpeg, id=82, 722.7pt x 1284.8pt>
+<./obrazki//nieprzerobione.jpeg, id=81, 722.7pt x 1284.8pt>
 File: ./obrazki//nieprzerobione.jpeg Graphic file (type jpg)
 <use ./obrazki//nieprzerobione.jpeg>
 Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 137
@@ -536,57 +536,59 @@ File: ./obrazki//nieprzerobione.jpeg Graphic file (type jpg)
 Package pdftex.def Info: ./obrazki//nieprzerobione.jpeg  used on input line 147
 .
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//po_gamma.jpeg, id=83, 722.7pt x 1284.8pt>
+<./obrazki//po_gamma.jpeg, id=82, 722.7pt x 1284.8pt>
 File: ./obrazki//po_gamma.jpeg Graphic file (type jpg)
 <use ./obrazki//po_gamma.jpeg>
 Package pdftex.def Info: ./obrazki//po_gamma.jpeg  used on input line 154.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//twarz.jpeg, id=84, 722.7pt x 1284.8pt>
+<./obrazki//twarz.jpeg, id=83, 722.7pt x 1284.8pt>
 File: ./obrazki//twarz.jpeg Graphic file (type jpg)
 <use ./obrazki//twarz.jpeg>
 Package pdftex.def Info: ./obrazki//twarz.jpeg  used on input line 168.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
-<./obrazki//maska.jpeg, id=85, 722.7pt x 1284.8pt>
+<./obrazki//maska.jpeg, id=84, 722.7pt x 1284.8pt>
 File: ./obrazki//maska.jpeg Graphic file (type jpg)
 <use ./obrazki//maska.jpeg>
 Package pdftex.def Info: ./obrazki//maska.jpeg  used on input line 175.
 (pdftex.def)             Requested size: 85.99538pt x 152.87546pt.
  [4] [5 <./obrazki//rgb_to_bgr.jpeg> <./obrazki//nieprzerobione.jpeg> <./obrazk
 i//po_gamma.jpeg>]
-<./obrazki//accuracy.png, id=105, 393.47pt x 279.0425pt>
+<./obrazki//accuracy.png, id=106, 393.47pt x 279.0425pt>
 File: ./obrazki//accuracy.png Graphic file (type png)
 <use ./obrazki//accuracy.png>
 Package pdftex.def Info: ./obrazki//accuracy.png  used on input line 190.
 (pdftex.def)             Requested size: 312.00119pt x 221.26291pt.
-<./obrazki//loss.png, id=106, 393.47pt x 279.0425pt>
+ [6 <./obrazki//twarz.jpeg> <./obrazki//maska.jpeg>]
+<./obrazki//loss.png, id=116, 393.47pt x 279.0425pt>
 File: ./obrazki//loss.png Graphic file (type png)
 <use ./obrazki//loss.png>
 Package pdftex.def Info: ./obrazki//loss.png  used on input line 196.
 (pdftex.def)             Requested size: 312.00119pt x 221.26291pt.
- [6 <./obrazki//twarz.jpeg> <./obrazki//maska.jpeg>]
-<./obrazki//accidents.png, id=116, 389.455pt x 262.9825pt>
+<./obrazki//accidents.png, id=117, 389.455pt x 262.9825pt>
 File: ./obrazki//accidents.png Graphic file (type png)
 <use ./obrazki//accidents.png>
 Package pdftex.def Info: ./obrazki//accidents.png  used on input line 202.
 (pdftex.def)             Requested size: 312.00119pt x 210.68723pt.
-<./obrazki//conf.png, id=117, 567.11874pt x 579.16376pt>
+ [7 <./obrazki//accuracy.png>]
+<./obrazki//conf.png, id=124, 567.11874pt x 579.16376pt>
 File: ./obrazki//conf.png Graphic file (type png)
 <use ./obrazki//conf.png>
 Package pdftex.def Info: ./obrazki//conf.png  used on input line 208.
 (pdftex.def)             Requested size: 234.00238pt x 238.96985pt.
- [7 <./obrazki//accuracy.png> <./obrazki//loss.png>] [8 <./obrazki//accidents.p
-ng> <./obrazki//conf.png>] (document.bbl) [9] (document.aux)
+ [8 <./obrazki//loss.png> <./obrazki//accidents.png>] [9 <./obrazki//conf.png>]
+ (document.bbl) [10]
+(document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 4B2B7A61070CB43D79127C62EE3BA81D;1150.
  ) 
 Here is how much of TeX's memory you used:
- 12574 strings out of 479582
- 190520 string characters out of 2861958
- 533664 words of memory out of 3000000
+ 12575 strings out of 479582
+ 190527 string characters out of 2861958
+ 520666 words of memory out of 3000000
  29543 multiletter control sequences out of 15000+200000
  449252 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,74p,678b,1182s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,9n,74p,678b,1901s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
 }{C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
 }{C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.
@@ -600,9 +602,9 @@ ic/lm/lmss17.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmss8.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmssbx10.pfb><C:/Users/Adam/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/lm/lmtt12.pfb>
-Output written on document.pdf (9 pages, 2299240 bytes).
+Output written on document.pdf (10 pages, 2300615 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
